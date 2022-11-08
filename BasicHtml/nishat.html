@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+Employee Leave Form
+        </title>
+        <style>
+        *{
+            background-color: azure;            
+        }
+       h1 {
+        font-family: 'Times New Roman', Times, serif;
+        font-size:xx-large;
+        font-style: normal;
+        font-weight: bold;
+        color: black;
+        text-align:center;
+        text-decoration:solid;
+        background-color: rgb(145, 208, 233);
+       }  
+       .email{
+        box-sizing: border-box;        
+        padding: 12px 20px;
+        font-style: normal;
+        font-weight: bold;
+        font-family: 'Times New Roman', Times, serif;
+        text-decoration: solid;
+       border-radius: 10;
+       align-content: center;
+      
+       margin-top: 10px;
+       
+       }
+       .id{
+        width: 100;
+        box-sizing: border-box;        
+        padding: 12px 20px;
+        font-style: normal;
+        font-weight: bold;
+        font-family: 'Times New Roman', Times, serif;
+        text-decoration: solid;
+       border-radius: 10;             
+        
+       margin-top: 10px;
+       }
+       .name{
+        width: 100;
+        box-sizing: border-box;        
+        padding: 12px 20px;        
+        font-style: normal;
+        font-family: 'Times New Roman', Times, serif;
+        text-decoration: solid;
+       border-radius: 10;       
+       
+       margin-top: 10px;
+       font-weight: bold;
+       }
+       .div1{
+        width: 100;
+        box-sizing: border-box;
+       
+        padding: 12px 20px;        
+        font-style: normal;        
+        font-family: 'Times New Roman', Times, serif;
+        text-decoration: solid;
+       border-radius: 10;
+       
+       
+       margin-top: 10px;
+       font-weight: bold;
+       }
+       .date1{
+        width: 100;
+        box-sizing: border-box;
+        
+        padding: 12px 20px;
+         
+        font-style: normal;       
+        font-family: 'Times New Roman', Times, serif;
+        text-decoration: solid;
+       border-radius: 10;
+       
+       
+       margin-top: 10px;
+       font-weight: bold;
+       }
+
+       .date2{
+        width: 100;
+        box-sizing: border-box;
+     
+        padding: 12px 20px;
+       
+        font-style: normal;        
+        font-family: 'Times New Roman', Times, serif;
+        text-decoration: solid;
+       border-radius: 10;
+       
+       
+       margin-top: 10px;
+       font-weight: bold;
+       }
+       .days{
+        width: 100;
+        box-sizing: border-box;
+       
+        padding: 12px 20px;
+       
+        font-style: normal;        
+        font-family: 'Times New Roman', Times, serif;
+        text-decoration: solid;
+       border-radius: 10;
+       
+       
+       margin-top: 10px;
+       font-weight: bold;
+       }
+       .area1{
+        width: 100;
+        box-sizing: border-box;
+        
+        padding: 12px 20px;
+        
+        font-style: normal;
+        font-weight: bold;
+        font-family: 'Times New Roman', Times, serif;
+        text-decoration: solid;
+        border-radius: 10;
+        
+        
+        margin-top: 10px;
+       }
+       .but1{
+        width: 100;
+        box-sizing: border-box;
+        padding: 12px 20px;
+        font-style: normal;
+        font-weight: bold;
+        font-family: 'Times New Roman', Times, serif;
+        text-decoration: solid;
+        border-radius: 10;
+               
+        margin-top: 30px;
+        
+       }
+       .div1{
+        margin-top: 10px;
+       }
+       .labelText{
+        margin-left: 200px;
+       }
+       .fieldText {
+        margin-left: 200px;        
+       }
+       .fieldText1 {
+        margin-left: 226px;
+       }
+       .fieldText2 {
+       margin-left: 202px;
+       }
+       .fieldText3 {
+        margin-left: 222px;
+       }
+       .fieldText4 {
+       margin-left: 264px;
+       }
+       .fieldText5 {
+       margin-left: 282px;
+       }
+       .fieldText6 {
+        margin-left: 236px;
+       }
+       .fieldText7 {
+        margin-left: 260px;
+       }
+       .labelText8 {
+        margin-left: 565px;
+       }
+       .fieldtext9{
+        margin-left: 20px;
+       }
+        </style>
+    </head>
+    <body>
+        
+<form>
+  <div class="hello">
+    <h1>Leave Form </h1> 
+  </div>
+    <div class = "email">
+        <label for = "email" class="labelText">Employee Email</label>
+         <input type = "text" id ="email" name = "email" placeholder = "appuser@zohocreator.com" class="fieldText">
+    </div>
+    <div class ="id">
+        <label for = "empid" class="labelText">Employee Id</label>
+          <input type ="text" id = "empid" name = "empid" placeholder = "232" class="fieldText1"> 
+    </div>
+    <div class ="name">
+        <label for = "empname" class="labelText">Employee Name</label>
+         <input type="text" id = "empname" name = "empname" placeholder="Team Leader" class="fieldText2">      
+    </div>
+    <div class ="div1">
+        <label for ="LeaveType" class="labelText">Leave Type *</label>
+        <select id = "LeaveType" name ="LeaveType" class="fieldText3">
+            <option value = "Sick leave">Sick Leave</option>
+            <option value = "Casual leave">Casual Leave</option>
+            <option value = "Half day">Half day</option>
+        </select>
+    </div>
+    <div class="date1">
+        <label for = "from" class="labelText">From *</label>
+        <input type = "date" id ="from" name ="from" class="fieldText4">
+    </div>
+    <div class="date2">
+        <label for = "to" class="labelText">To *</label>
+    <input type = "date" id = "to" name ="to" class="fieldText5">
+    </div>
+    <div class="days">
+        <label for="days" class="labelText">No of Days</label>
+        <input type = "text" id = "days" name = "" class="fieldText6">   
+    </div>
+    <div class = "area1">
+        <label for = "reason" class="labelText">Reason</label>
+        <textarea id= "reason" name = "reason" rows = "4" cols ="30"class="fieldText7"></textarea>
+    </div>
+    <div class ="but1">
+       <input type ="submit" name ="Submit" class="labelText8">
+       <input type = "reset" name = "Reset" class="fieldtext9">
+    </div>
+</form> 
+
+    </body>
+</html>
